@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import ClassComponent from './classComponent';
+import { Primeiro, Segundo } from './component';
 
 const elemento = document.getElementById('app');
 
 ReactDom.render(
-    <ClassComponent value="Componente em classe" />,
+    <div>
+        <Primeiro />
+        <Segundo />
+    </div>,
     elemento);
