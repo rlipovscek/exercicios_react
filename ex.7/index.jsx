@@ -5,5 +5,5 @@ import ClassComponent from './classComponent';
 const elemento = document.getElementById('app');
 
 ReactDom.render(
-    <ClassComponent label="Contadoer" initialValue={10} />,
+    <ClassComponent value="Componente em classe" />,
     elemento);
